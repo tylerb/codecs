@@ -1,15 +1,15 @@
 package services
 
 import (
+	"strings"
+
 	"github.com/tylerb/codecs"
-	"github.com/tylerb/codecs/bson"
 	"github.com/tylerb/codecs/constants"
 	"github.com/tylerb/codecs/csv"
 	"github.com/tylerb/codecs/json"
 	"github.com/tylerb/codecs/jsonp"
 	"github.com/tylerb/codecs/msgpack"
 	"github.com/tylerb/codecs/xml"
-	"strings"
 )
 
 type ContentTypeNotSupportedError struct {
@@ -22,7 +22,7 @@ func (e *ContentTypeNotSupportedError) Error() string {
 
 // DefaultCodecs represents the list of Codecs that get added automatically by
 // a call to NewWebCodecService.
-var DefaultCodecs = []codecs.Codec{new(json.JsonCodec), new(jsonp.JsonPCodec), new(msgpack.MsgpackCodec), new(bson.BsonCodec), new(csv.CsvCodec), new(xml.SimpleXmlCodec)}
+var DefaultCodecs = []codecs.Codec{new(json.JsonCodec), new(jsonp.JsonPCodec), new(msgpack.MsgpackCodec), new(csv.CsvCodec), new(xml.SimpleXmlCodec)}
 
 // WebCodecService represents the default implementation for providing access to the
 // currently installed web codecs.

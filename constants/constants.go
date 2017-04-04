@@ -9,8 +9,6 @@ const (
 	FileExtensionJSON    string = ".json"
 	ContentTypeJSONP     string = "text/javascript"
 	FileExtensionJSONP   string = ".js"
-	ContentTypeBSON      string = "application/bson"
-	FileExtensionBSON    string = ".bson"
 	ContentTypeMsgpack   string = "application/x-msgpack"
 	FileExtensionMsgpack string = ".msgpack"
 	ContentTypeCSV       string = "text/csv"
