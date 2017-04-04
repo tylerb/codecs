@@ -1,7 +1,7 @@
 package services
 
 import (
-	"github.com/stretchr/codecs"
+	"github.com/tylerb/codecs"
 )
 
 // CodecService is the interface for a service responsible for providing Codecs.

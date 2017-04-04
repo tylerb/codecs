@@ -2,7 +2,7 @@ package json
 
 import (
 	jsonEncoding "encoding/json"
-	"github.com/stretchr/codecs/constants"
+	"github.com/tylerb/codecs/constants"
 )
 
 var validJsonContentTypes = []string{

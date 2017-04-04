@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/stretchr/codecs"
-	"github.com/stretchr/codecs/json"
+	"github.com/tylerb/codecs"
+	"github.com/tylerb/codecs/json"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

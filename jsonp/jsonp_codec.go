@@ -3,7 +3,7 @@ package jsonp
 import (
 	jsonEncoding "encoding/json"
 	"errors"
-	"github.com/stretchr/codecs/constants"
+	"github.com/tylerb/codecs/constants"
 	stewstrings "github.com/stretchr/stew/strings"
 )
 

@@ -1,8 +1,8 @@
 package json
 
 import (
-	"github.com/stretchr/codecs"
-	"github.com/stretchr/codecs/constants"
+	"github.com/tylerb/codecs"
+	"github.com/tylerb/codecs/constants"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

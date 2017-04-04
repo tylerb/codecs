@@ -1,7 +1,7 @@
 package services
 
 import (
-	"github.com/stretchr/codecs"
+	"github.com/tylerb/codecs"
 )
 
 // contentTypeCodecWrapper is a wrapper for a Codec.  It is used to

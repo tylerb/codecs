@@ -1,8 +1,8 @@
 package codecs
 
 import (
-	"github.com/stretchr/codecs/constants"
-	"github.com/stretchr/codecs/test"
+	"github.com/tylerb/codecs/constants"
+	"github.com/tylerb/codecs/test"
 	"github.com/stretchr/objx"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"

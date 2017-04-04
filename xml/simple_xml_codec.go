@@ -2,12 +2,13 @@ package xml
 
 import (
 	"fmt"
-	xml "github.com/clbanning/x2j"
-	"github.com/stretchr/codecs/constants"
-	"github.com/stretchr/objx"
 	"reflect"
 	"strconv"
 	"strings"
+
+	xml "github.com/clbanning/x2j"
+	"github.com/stretchr/objx"
+	"github.com/tylerb/codecs/constants"
 )
 
 const (

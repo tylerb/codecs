@@ -2,8 +2,8 @@ package csv
 
 import (
 	"fmt"
-	"github.com/stretchr/codecs"
-	"github.com/stretchr/codecs/constants"
+	"github.com/tylerb/codecs"
+	"github.com/tylerb/codecs/constants"
 	"github.com/stretchr/objx"
 	"github.com/stretchr/testify/assert"
 	"log"

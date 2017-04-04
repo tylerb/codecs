@@ -1,14 +1,14 @@
 package services
 
 import (
-	"github.com/stretchr/codecs"
-	"github.com/stretchr/codecs/bson"
-	"github.com/stretchr/codecs/constants"
-	"github.com/stretchr/codecs/csv"
-	"github.com/stretchr/codecs/json"
-	"github.com/stretchr/codecs/jsonp"
-	"github.com/stretchr/codecs/msgpack"
-	"github.com/stretchr/codecs/xml"
+	"github.com/tylerb/codecs"
+	"github.com/tylerb/codecs/bson"
+	"github.com/tylerb/codecs/constants"
+	"github.com/tylerb/codecs/csv"
+	"github.com/tylerb/codecs/json"
+	"github.com/tylerb/codecs/jsonp"
+	"github.com/tylerb/codecs/msgpack"
+	"github.com/tylerb/codecs/xml"
 	"strings"
 )
 

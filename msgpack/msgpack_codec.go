@@ -2,7 +2,7 @@ package msgpack
 
 import (
 	"bytes"
-	"github.com/stretchr/codecs/constants"
+	"github.com/tylerb/codecs/constants"
 	"github.com/ugorji/go/codec"
 )
 
